@@ -1,1 +1,1 @@
-export * from "./core/Call";
+export * from "./Call";
