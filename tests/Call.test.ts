@@ -1,5 +1,5 @@
 import { ethers } from 'ethers';
-import { Call } from '../Call'; // Adjust the import path as needed
+import { Call } from '../src/Call'; // Adjust the import path as needed
 
 describe('Call class', () => {
 

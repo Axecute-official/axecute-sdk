@@ -1,10 +1,16 @@
 {
   "name": "@axecute-official/axecute-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript SDK for Axecute",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest",
+    "publish": "npm run build && npm publish --global"
   },
   "repository": {
     "type": "git",
